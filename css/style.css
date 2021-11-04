@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.container_95 {
+    width: 95%;
+}
+
+.bg-black img {
+    width: 125px;
+    padding: 12px 0px;
+    margin: 0px 40px;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.menu a {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    
+}
+.logo {
+    
+}
+
+.logo, .burger {
+    margin-right: 20px;
+    font-size: 28px;
+}
+
+.burger {
+    
+}
+
+.burger, .menu {
+    text-align: right;
+}
+
+.burger i {
+    color: black;
+    padding: 10px 14px;
+    border: solid 1px black;
+    border-radius: 3px ;
+}
+
