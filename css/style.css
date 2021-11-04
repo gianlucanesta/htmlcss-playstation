@@ -3,13 +3,10 @@ body {
 }
 
 header {
-
+    width: 100%;
     font-family: Helvetica, arial, sans-serif;
 }
 
-.container_95 {
-    width: 95%;
-}
 
 .bg-black img {
     width: 125px;
