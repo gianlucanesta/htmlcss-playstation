@@ -84,3 +84,14 @@ header {
 .btn-danger {
     border-radius: 30px;
 }
+
+#play-banner {
+    margin: 20px;
+    width: 75%;
+    border-radius: 20px;
+}
+
+.border-blue {
+    padding: 3px;
+    border: 1px solid blue;
+}
