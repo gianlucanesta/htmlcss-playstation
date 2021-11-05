@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgreen;
+    background-color: #ffffff;
 }
 
 header {
@@ -62,3 +62,25 @@ header {
     box-shadow: none;
 }
 
+.jumbotron-container {
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-background {
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.m-left {
+    margin-left: 1%;
+}
+
+.returnal {
+    min-width: 300px;
+}
+
+.btn-danger {
+    border-radius: 30px;
+}
