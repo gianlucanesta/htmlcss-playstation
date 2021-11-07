@@ -10,6 +10,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
 }
 
 main {
@@ -71,10 +72,9 @@ main {
     background-repeat: no-repeat;
 }
 
-.jumbotron-background {
+.returnal-jumbotron-background {
     background-image: url(../img/jumbo-bg.png);
 }
-
 
 .m-left {
     margin-left: 1%;
@@ -90,7 +90,7 @@ main {
 }
 
 .play-banner {
-    margin: 3%;
+    margin: 8%;
     width: 90%;
     border-radius: 25px;
     padding: 3px;
@@ -132,9 +132,43 @@ main {
 }
 
 .console-ps5 {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .card {
     border: none;
+}
+
+.console-ps5-image img {
+    width: 100%;
+}
+
+.single-product {
+    opacity: 0.7;
+    border-bottom: 3px solid #ffffff;
+}
+
+.img-thumb {
+    margin: auto;
+    width: 40%;
+}
+
+.single-product:hover {
+    opacity: 1;
+    border-bottom: 3px solid #0072ce;
+}
+
+.bottom-spacing {
+    padding-bottom: 10%;
+}
+
+.it-takes-two-container {
+    height: 950px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.it-takes-two-background {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
