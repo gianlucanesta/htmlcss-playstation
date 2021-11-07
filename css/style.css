@@ -1,20 +1,25 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
+    height: 10000px;
 }
 
 header {
     width: 100%;
     font-family: Helvetica, arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-
+main {
+    margin-top: 118px;
+}
 
 .bg-black img {
     width: 100px;
     padding: 12px 0px;
-    margin: 0px 41px;
-
+    margin-right: 2%;
 }
 
 .bg-black {
@@ -47,15 +52,12 @@ header {
     height: auto;
 }
 
-.btn_dark {
-    background-color: #363636;
-    color: white;
+.btn-dark {
     border-radius: 25px;
 }
 
-.btn_dark:hover {
-    background-color: white;
-    border: 1px solid #363636;
+.btn-dark:hover {
+    background-color: #363636;
 }
 
 .btn:focus {
@@ -73,6 +75,7 @@ header {
     background-image: url(../img/jumbo-bg.png);
 }
 
+
 .m-left {
     margin-left: 1%;
 }
@@ -81,17 +84,57 @@ header {
     min-width: 300px;
 }
 
-.btn-danger {
+.btn-danger,
+.btn-primary{
     border-radius: 30px;
 }
 
-#play-banner {
-    margin: 20px;
-    width: 75%;
-    border-radius: 20px;
+.play-banner {
+    margin: 3%;
+    width: 90%;
+    border-radius: 25px;
+    padding: 3px;
+    border: 3px solid white;
 }
 
-.border-blue {
+.play-banner:hover {
     padding: 3px;
-    border: 1px solid blue;
+    border: 3px solid #0072ce;
+}
+
+.m-top {
+    margin-top: 2%;
+}
+
+.here-play-5 {
+    margin-top: 10%;
+}
+
+.no-limits {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.3em;
+    color: #0072ce; 
+}
+
+.no-limits-title,
+.card-title {
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.no-limits-subtitle,
+.card-text {
+    margin-top: 3.5%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #787878;
+}
+
+.console-ps5 {
+    margin-top: 10%;
+}
+
+.card {
+    border: none;
 }
