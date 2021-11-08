@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    height: 10000px;
+    
 }
 
 header {
@@ -250,11 +250,17 @@ ul a {
 }
 
 .footer-bottom {
-    width: 40%;
+    
     margin-top: 5%;
     padding-bottom: 5%;
 }
 
 .footer-bottom-logo img {
-    width: 20%;
+    width: 200px;
+}
+
+@media (min-width: 768px) { 
+    .footer-bottom{
+        width: 50%; 
+    }
 }
