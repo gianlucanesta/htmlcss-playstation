@@ -40,6 +40,10 @@ main {
     height: auto;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0070d1;
+}
+
 .gray-arrow:hover , .blue-arrow {
     display: none;
 }
@@ -54,7 +58,7 @@ main {
 }
 
 .btn-dark {
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 .btn-dark:hover {
@@ -192,4 +196,21 @@ main {
 
 .new-exit-game img  {
     border-radius: 20px;
+}
+
+.playstation-plus {
+    background-color: #bebcbb;
+}
+
+.playstation-plus-text img {
+    width: 60%
+}
+.playstation-plus-text p {
+    font-size: 1.2em;
+    
+}
+
+.btn-light  {
+    border-radius: 30px;
+    color: #0d6efd;
 }
