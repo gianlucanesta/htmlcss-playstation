@@ -214,3 +214,11 @@ main {
     border-radius: 30px;
     color: #0d6efd;
 }
+
+.discount-banner {
+    width: 100%;
+}
+
+.playstation-now {
+    background-color: #161c3b;
+}
