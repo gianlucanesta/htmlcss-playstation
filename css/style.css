@@ -90,7 +90,6 @@ main {
 }
 
 .play-banner {
-    margin: 8%;
     width: 90%;
     border-radius: 25px;
     padding: 3px;
@@ -171,4 +170,26 @@ main {
 
 .it-takes-two-background {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.new-exit {
+    background-color: #1f1f1f;
+}
+
+.new-exit-text-area {
+    margin-bottom: 2%;
+}
+
+.new-exit-text-area h2 {
+    font-size: 3em;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+
+.new-exit-text-area span {
+    font-size: 2em;
+}
+
+.new-exit-game img  {
+    border-radius: 20px;
 }
