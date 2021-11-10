@@ -22,6 +22,10 @@ footer {
     background-color: #00439c;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .bg-black img {
     width: 100px;
@@ -75,8 +79,10 @@ footer {
     box-shadow: none;
 }
 
-.jumbotron-container {
-    height: 700px;
+.jumbotron-container, 
+.it-takes-two-container  {
+    padding-top: 300px;
+    padding-bottom: 100px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,15 +106,22 @@ footer {
 }
 
 .play-banner {
-    width: 90%;
+    width: 100%;
     border-radius: 25px;
     padding: 3px;
     border: 3px solid white;
+    filter: opacity(0.7);
+    transition: all 0.4s;
+    cursor:pointer;
 }
 
 .play-banner:hover {
     padding: 3px;
     border: 3px solid #0072ce;
+    transform: translateY(-12px);
+    box-shadow: 0px 11px 11px rgb(189, 189, 189);
+    filter: opacity(1);
+
 }
 
 .m-top {
@@ -126,18 +139,25 @@ footer {
     color: #0072ce; 
 }
 
-.no-limits-title,
 .card-title {
     font-size: 3.2rem;
     font-weight: 600;
 }
 
-.no-limits-subtitle,
 .card-text {
     margin-top: 3.5%;
     font-size: 1.5rem;
     font-weight: 600;
     color: #787878;
+}
+
+.font-1 {
+    font-size: 1rem;
+}
+
+
+.font {
+    font-size: 1.3rem;
 }
 
 .console-ps5 {
@@ -154,7 +174,7 @@ footer {
 
 .single-product {
     opacity: 0.7;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid white;
 }
 
 .img-thumb {
@@ -168,14 +188,7 @@ footer {
 }
 
 .bottom-spacing {
-    padding-bottom: 10%;
-}
-
-.it-takes-two-container {
-    height: 950px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    padding-bottom: 9%;
 }
 
 .it-takes-two-background {
@@ -204,6 +217,11 @@ footer {
     border-radius: 20px;
 }
 
+.new-exit-game img:hover  {
+    transform: scale(1.05);
+    transition: all 0.4s;
+}
+
 .playstation-plus {
     background-color: #bebcbb;
 }
@@ -222,7 +240,15 @@ footer {
 }
 
 .discount-banner {
-    width: 100%;
+    width: 90%;
+    opacity: 0.7;
+}
+
+.discount-banner:hover,
+.social-banner:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    transition: all 0.4s;
 }
 
 .playstation-now {
@@ -236,13 +262,19 @@ footer {
 .footer-icon-world {
     padding: 20px 0;
 }
+
 .footer-icon-world img {
     width: 20px;
 }
 
 ul {
     list-style-type: none;
-    line-height: 2.6em;
+    line-height: 2.6rem;
+}
+
+.footer-single-menu li {
+
+    font-size: 0.9rem;
 }
 
 ul a {
@@ -250,7 +282,6 @@ ul a {
 }
 
 .footer-bottom {
-    
     margin-top: 5%;
     padding-bottom: 5%;
 }
